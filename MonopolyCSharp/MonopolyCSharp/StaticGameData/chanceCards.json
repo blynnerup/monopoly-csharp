@@ -1,0 +1,11 @@
+{
+  "cards": [
+    {
+      "title": "",
+      "type": "move/balance/jail",
+      "effect": {
+        "amount": ""
+      }
+    }
+  ]
+}

@@ -1,5 +1,125 @@
 {
   "fields": [
-    
+    {
+      "name": "Start",
+      "fieldNumber": "0",
+      "special": {
+        "text": "Du har passeret Start, inkassér 2000 kr.",
+        "type": "balance",
+        "amount": "2000"
+      }
+    },
+    {
+      "name": "Hvidovrevej",
+      "price": "500",
+      "group": "1",
+      "fieldNumber": "1"
+    },
+    {
+      "name": "Rødovrevej",
+      "price": "500",
+      "group": "1"
+    },
+    {
+      "name": "Valby Langgade",
+      "price": "1000",
+      "group": "2"
+    },
+    {
+      "name": "Roskildevej",
+      "price": "1000",
+      "group": "2"
+    },
+    {
+      "name": "Allegadé",
+      "price": "1000",
+      "group": "2"
+    },
+    {
+      "name": "Bülowsvej",
+      "price": "1500",
+      "group": "3"
+    },
+    {
+      "name": "Frederiksberg Alle",
+      "price": "1500",
+      "group": "3"
+    },
+    {
+      "name": "Gammel Kongevej",
+      "price": "1500",
+      "group": "3"
+    },
+    {
+      "name": "Bernstorffsvej",
+      "price": "2000",
+      "group": "4"
+    },
+    {
+      "name": "Hellerupvej",
+      "price": "2000",
+      "group": "4"
+    },
+    {
+      "name": "Strandvejen",
+      "price": "2000",
+      "group": "4"
+    },
+    {
+      "name": "Østerbrogade",
+      "price": "2500",
+      "group": "5"
+    },
+    {
+      "name": "Trianglen",
+      "price": "2500",
+      "group": "5"
+    },
+    {
+      "name": "Grønningen",
+      "price": "2500",
+      "group": "5"
+    },
+    {
+      "name": "Bredgade",
+      "price": "3000",
+      "group": "6"
+    },
+    {
+      "name": "Kongens Nytorv",
+      "price": "3000",
+      "group": "6"
+    },
+    {
+      "name": "Østergade",
+      "price": "3000",
+      "group": "6"
+    },
+    {
+      "name": "Amagertorv",
+      "price": "3500",
+      "group": "7"
+    },
+    {
+      "name": "Vimmelskaftet",
+      "price": "3500",
+      "group": "7"
+    },
+    {
+      "name": "Nygade",
+      "price": "3500",
+      "group": "7"
+    },
+    {
+      "name": "Frederiksberggade",
+      "price": "4000",
+      "group": "8"
+    },
+    {
+      "name": "Rådhuspladsen",
+      "price": "4000",
+      "group": "8",
+      "fieldNumber": ""
+    }
   ]
 }
