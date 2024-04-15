@@ -1,6 +1,24 @@
-{
-  "name": "Hvidovrevej",
-  "price": "500",
-  "group": "1",
-  "fieldNumber": 1
-}
+[
+  {
+    "text": "START - Hver gang De passerer START, modtag kr. 4000",
+    "fieldNumber": "0",
+    "type": "special",
+    "special": {
+      "effect": 3,
+      "amount": "4000"
+    }
+  },
+  {
+    "text": "Hvidovrevej",
+    "price": "500",
+    "group": "1",
+    "fieldNumber": "1"
+  },
+  {
+    "text": "Rødovrevej",
+    "fieldNumber": "2",
+    "type": "property",
+    "price": "1200",
+    "group": "1"
+  }
+]

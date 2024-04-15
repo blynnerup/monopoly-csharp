@@ -152,7 +152,7 @@
       "fieldNumber": "20",
       "type": "special",
       "special": {
-        "effect": "none"
+        "effect": 7
       }
     },
     {
