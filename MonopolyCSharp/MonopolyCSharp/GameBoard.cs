@@ -13,8 +13,8 @@ public class GameBoard
         {
             PropertyNameCaseInsensitive = true
         };
-        var jsonString = File.ReadAllText("StaticGameData/testGameField.json");
-        // var jsonString = File.ReadAllText("StaticGameData/gameFields.json");
+        // var jsonString = File.ReadAllText("StaticGameData/testGameField.json");
+        var jsonString = File.ReadAllText("StaticGameData/gameFields.json");
         // var field = JsonSerializer.Deserialize<GameBoardField>(jsonString, options);
         Fields = JsonSerializer.Deserialize<List<GameBoardField>>(jsonString, options)!;
     }

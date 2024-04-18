@@ -20,12 +20,12 @@ public class Special
 
 public enum Effect
 {
-    None,
-    Chance,
-    SubBalance,
-    Balance,
-    Jailed,
-    Visiting,
-    Choice,
-    Parking
+    None = 0,
+    Chance = 1,
+    SubBalance = 2,
+    Balance = 3,
+    Jailed = 4,
+    Visiting = 5,
+    Choice = 6,
+    Parking = 7
 }

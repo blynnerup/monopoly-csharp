@@ -1,299 +1,297 @@
-{
-  "fields": [
-    {
-      "text": "START - Hver gang De passerer START, modtag kr. 4000",
-      "fieldNumber": "0",
-      "type": "special",
-      "special": {
-        "effect": "balance",
-        "amount": "4000"
-      }
-    },
-    {
-      "text": "Rødovrevej",
-      "fieldNumber": "1",
-      "type": "property",
-      "price": "1200",
-      "group": "1"
-    },
-    {
-      "text": "Prøv lykken",
-      "fieldNumber": "2",
-      "type": "special",
-      "special": {
-        "effect": "chance"
-      }
-    },
-    {
-      "text": "Hvidovrevej",
-      "fieldNumber": "3",
-      "type": "property",
-      "price": "1200",
-      "group": "1"
-    },
-    {
-      "text": "Betal indkomstskat: 10% eller kr. 4000",
-      "fieldNumber": "4",
-      "type": "special",
-      "special": {
-        "effect": "choice"
-      }
-    },
-    {
-      "text": "Færge: Gedser - Rostock",
-      "fieldNumber": "5",
-      "type": "ferry",
-      "price": "4000",
-      "group": "99"
-    },
-    {
-      "text": "Roskildevej",
-      "fieldNumber": "6",
-      "type": "property",
-      "price": "2000",
-      "group": "2"
-    },
-    {
-      "text": "Prøv lykken",
-      "fieldNumber": "7",
-      "type": "special",
-      "special": {
-        "effect": "chance"
-      }
-    },
-    {
-      "text": "Valby Langgade",
-      "fieldNumber": "8",
-      "type": "property",
-      "price": "2000",
-      "group": "2"
-    },
-    {
-      "text": "Allegadé",
-      "fieldNumber": "9",
-      "type": "property",
-      "price": "2400",
-      "group": "2"
-    },
-    {
-      "text": "I fængsel",
-      "fieldNumber": "10",
-      "type": "special",
-      "special": {
-        "effect": "visting"
-      }
-    },
-    {
-      "text": "Frederiksberg Alle",
-      "fieldNumber": "11",
-      "type": "property",
-      "price": "2800",
-      "group": "3"
-    },
-    {
-      "text": "Unibrew",
-      "fieldNumber": "12",
-      "type": "brewery",
-      "price": "3000",
-      "group": "100"
-    },
-    {
-      "text": "Bülowsvej",
-      "fieldNumber": "13",
-      "type": "property",
-      "price": "2800",
-      "group": "3"
-    },
-    {
-      "text": "Gammel Kongevej",
-      "fieldNumber": "14",
-      "type": "property",
-      "price": "3200",
-      "group": "3"
-    },
-    {
-      "text": "Færge: Rødby - Puttgarden",
-      "fieldNumber": "15",
-      "type": "ferry",
-      "price": "4000",
-      "group": "99"
-    },
-    {
-      "text": "Bernstorffsvej",
-      "fieldNumber": "16",
-      "type": "property",
-      "price": "3600",
-      "group": "4"
-    },
-    {
-      "text": "Prøv lykken",
-      "fieldNumber": "17",
-      "type": "special",
-      "special": {
-        "effect": "chance"
-      }
-    },
-    {
-      "text": "Hellerupvej",
-      "fieldNumber": "18",
-      "type": "property",
-      "price": "3600",
-      "group": "4"
-    },
-    {
-      "text": "Strandvejen",
-      "fieldNumber": "19",
-      "type": "property",
-      "price": "4000",
-      "group": "4"
-    },
-    {
-      "text": "Parkering",
-      "fieldNumber": "20",
-      "type": "special",
-      "special": {
-        "effect": 7
-      }
-    },
-    {
-      "text": "Trianglen",
-      "fieldNumber": "21",
-      "type": "property",
-      "price": "4400",
-      "group": "5"
-    },
-    {
-      "text": "Prøv lykken",
-      "fieldNumber": "22",
-      "type": "special",
-      "special": {
-        "effect": "chance"
-      }
-    },
-    {
-      "text": "Østerbrogade",
-      "fieldNumber": "23",
-      "type": "property",
-      "price": "4400",
-      "group": "5"
-    },
-    {
-      "text": "Grønningen",
-      "fieldNumber": "24",
-      "type": "property",
-      "price": "4800",
-      "group": "5"
-    },
-    {
-      "text": "Færge: Mols-Linjen",
-      "fieldNumber": "25",
-      "type": "ferry",
-      "price": "4000",
-      "group": "99"
-    },
-    {
-      "text": "Bredgade",
-      "fieldNumber": "26",
-      "type": "property",
-      "price": "5200",
-      "group": "6"
-    },
-    {
-      "text": "Kongens Nytorv",
-      "fieldNumber": "27",
-      "type": "property",
-      "price": "5200",
-      "group": "6"
-    },
-    {
-      "text": "Carlsberg",
-      "fieldNumber": "28",
-      "type": "brewery",
-      "price": "3000",
-      "group": "100"
-    },
-    {
-      "text": "Østergade",
-      "fieldNumber": "29",
-      "type": "property",
-      "price": "5600",
-      "group": "6"
-    },
-    {
-      "text": "De fængsles i tre omgange.",
-      "fieldNumber": "30",
-      "type": "special",
-      "special": {
-        "effect": "jailed",
-        "lasts": "3"
-      }
-    },
-    {
-      "text": "Amagertorv",
-      "fieldNumber": "31",
-      "type": "property",
-      "price": "6000",
-      "group": "7"
-    },
-    {
-      "text": "Vimmelskaftet",
-      "fieldNumber": "32",
-      "type": "property",
-      "price": "6000",
-      "group": "7"
-    },
-    {
-      "text": "Prøv lykken",
-      "fieldNumber": "33",
-      "type": "special",
-      "special": {
-        "effect": "chance"
-      }
-    },
-    {
-      "text": "Nygade",
-      "fieldNumber": "34",
-      "type": "property",
-      "price": "6400",
-      "group": "7"
-    },
-    {
-      "text": "Færge: DFDS",
-      "fieldNumber": "35",
-      "type": "ferry",
-      "price": "4000",
-      "group": "99"
-    },
-    {
-      "text": "Prøv lykken",
-      "fieldNumber": "36",
-      "type": "special",
-      "special": {
-        "effect": "chance"
-      }
-    },
-    {
-      "text": "Frederiksberggade",
-      "fieldNumber": "37",
-      "type": "property",
-      "price": "7000",
-      "group": "8"
-    },
-    {
-      "text": "Ekstraordinær statsskat: Betal kr. 2000",
-      "fieldNumber": "38",
-      "type": "special",
-      "special": {
-        "effect": "subBalance",
-        "amount": "2000"
-      }
-    },
-    {
-      "text": "Rådhuspladsen",
-      "fieldNumber": "39",
-      "type": "property",
-      "price": "8000",
-      "group": "8"
+[
+  {
+    "text": "START - Hver gang De passerer START, modtag kr. 4000",
+    "fieldNumber": "0",
+    "type": "special",
+    "special": {
+      "effect": 3,
+      "amount": "4000"
     }
-  ]
-}
+  },
+  {
+    "text": "Rødovrevej",
+    "fieldNumber": "1",
+    "type": "property",
+    "price": "1200",
+    "group": "1"
+  },
+  {
+    "text": "Prøv lykken",
+    "fieldNumber": "2",
+    "type": "special",
+    "special": {
+      "effect": 1
+    }
+  },
+  {
+    "text": "Hvidovrevej",
+    "fieldNumber": "3",
+    "type": "property",
+    "price": "1200",
+    "group": "1"
+  },
+  {
+    "text": "Betal indkomstskat: 10% eller kr. 4000",
+    "fieldNumber": "4",
+    "type": "special",
+    "special": {
+      "effect": 6
+    }
+  },
+  {
+    "text": "Færge: Gedser - Rostock",
+    "fieldNumber": "5",
+    "type": "ferry",
+    "price": "4000",
+    "group": "99"
+  },
+  {
+    "text": "Roskildevej",
+    "fieldNumber": "6",
+    "type": "property",
+    "price": "2000",
+    "group": "2"
+  },
+  {
+    "text": "Prøv lykken",
+    "fieldNumber": "7",
+    "type": "special",
+    "special": {
+      "effect": 1
+    }
+  },
+  {
+    "text": "Valby Langgade",
+    "fieldNumber": "8",
+    "type": "property",
+    "price": "2000",
+    "group": "2"
+  },
+  {
+    "text": "Allegadé",
+    "fieldNumber": "9",
+    "type": "property",
+    "price": "2400",
+    "group": "2"
+  },
+  {
+    "text": "I fængsel",
+    "fieldNumber": "10",
+    "type": "special",
+    "special": {
+      "effect": 5
+    }
+  },
+  {
+    "text": "Frederiksberg Alle",
+    "fieldNumber": "11",
+    "type": "property",
+    "price": "2800",
+    "group": "3"
+  },
+  {
+    "text": "Unibrew",
+    "fieldNumber": "12",
+    "type": "brewery",
+    "price": "3000",
+    "group": "100"
+  },
+  {
+    "text": "Bülowsvej",
+    "fieldNumber": "13",
+    "type": "property",
+    "price": "2800",
+    "group": "3"
+  },
+  {
+    "text": "Gammel Kongevej",
+    "fieldNumber": "14",
+    "type": "property",
+    "price": "3200",
+    "group": "3"
+  },
+  {
+    "text": "Færge: Rødby - Puttgarden",
+    "fieldNumber": "15",
+    "type": "ferry",
+    "price": "4000",
+    "group": "99"
+  },
+  {
+    "text": "Bernstorffsvej",
+    "fieldNumber": "16",
+    "type": "property",
+    "price": "3600",
+    "group": "4"
+  },
+  {
+    "text": "Prøv lykken",
+    "fieldNumber": "17",
+    "type": "special",
+    "special": {
+      "effect": 1
+    }
+  },
+  {
+    "text": "Hellerupvej",
+    "fieldNumber": "18",
+    "type": "property",
+    "price": "3600",
+    "group": "4"
+  },
+  {
+    "text": "Strandvejen",
+    "fieldNumber": "19",
+    "type": "property",
+    "price": "4000",
+    "group": "4"
+  },
+  {
+    "text": "Parkering",
+    "fieldNumber": "20",
+    "type": "special",
+    "special": {
+      "effect": 7
+    }
+  },
+  {
+    "text": "Trianglen",
+    "fieldNumber": "21",
+    "type": "property",
+    "price": "4400",
+    "group": "5"
+  },
+  {
+    "text": "Prøv lykken",
+    "fieldNumber": "22",
+    "type": "special",
+    "special": {
+      "effect": 1
+    }
+  },
+  {
+    "text": "Østerbrogade",
+    "fieldNumber": "23",
+    "type": "property",
+    "price": "4400",
+    "group": "5"
+  },
+  {
+    "text": "Grønningen",
+    "fieldNumber": "24",
+    "type": "property",
+    "price": "4800",
+    "group": "5"
+  },
+  {
+    "text": "Færge: Mols-Linjen",
+    "fieldNumber": "25",
+    "type": "ferry",
+    "price": "4000",
+    "group": "99"
+  },
+  {
+    "text": "Bredgade",
+    "fieldNumber": "26",
+    "type": "property",
+    "price": "5200",
+    "group": "6"
+  },
+  {
+    "text": "Kongens Nytorv",
+    "fieldNumber": "27",
+    "type": "property",
+    "price": "5200",
+    "group": "6"
+  },
+  {
+    "text": "Carlsberg",
+    "fieldNumber": "28",
+    "type": "brewery",
+    "price": "3000",
+    "group": "100"
+  },
+  {
+    "text": "Østergade",
+    "fieldNumber": "29",
+    "type": "property",
+    "price": "5600",
+    "group": "6"
+  },
+  {
+    "text": "De fængsles i tre omgange.",
+    "fieldNumber": "30",
+    "type": "special",
+    "special": {
+      "effect": 4,
+      "lasts": "3"
+    }
+  },
+  {
+    "text": "Amagertorv",
+    "fieldNumber": "31",
+    "type": "property",
+    "price": "6000",
+    "group": "7"
+  },
+  {
+    "text": "Vimmelskaftet",
+    "fieldNumber": "32",
+    "type": "property",
+    "price": "6000",
+    "group": "7"
+  },
+  {
+    "text": "Prøv lykken",
+    "fieldNumber": "33",
+    "type": "special",
+    "special": {
+      "effect": 1
+    }
+  },
+  {
+    "text": "Nygade",
+    "fieldNumber": "34",
+    "type": "property",
+    "price": "6400",
+    "group": "7"
+  },
+  {
+    "text": "Færge: DFDS",
+    "fieldNumber": "35",
+    "type": "ferry",
+    "price": "4000",
+    "group": "99"
+  },
+  {
+    "text": "Prøv lykken",
+    "fieldNumber": "36",
+    "type": "special",
+    "special": {
+      "effect": 1
+    }
+  },
+  {
+    "text": "Frederiksberggade",
+    "fieldNumber": "37",
+    "type": "property",
+    "price": "7000",
+    "group": "8"
+  },
+  {
+    "text": "Ekstraordinær statsskat: Betal kr. 2000",
+    "fieldNumber": "38",
+    "type": "special",
+    "special": {
+      "effect": 2,
+      "amount": "2000"
+    }
+  },
+  {
+    "text": "Rådhuspladsen",
+    "fieldNumber": "39",
+    "type": "property",
+    "price": "8000",
+    "group": "8"
+  }
+]
