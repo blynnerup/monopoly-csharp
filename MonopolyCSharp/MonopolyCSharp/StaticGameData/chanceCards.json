@@ -1,11 +1,206 @@
-{
-  "cards": [
-    {
-      "title": "",
-      "type": "move/balance/jail",
-      "effect": {
-        "amount": ""
-      }
+[
+  {
+    "id": 0,
+    "text": "Betal for vognvask og smørring kr. 300.",
+    "cardEffect": {
+      "amount": "300",
+      "effect": 2
     }
-  ]
-}
+  },
+  {
+    "id": 1,
+    "text": "De har købt fire nye dæk til Deres vogn. Betal kr. 1.000.",
+    "cardEffect": {
+      "amount": "1000",
+      "effect": 2
+    }
+  },
+  {
+    "id": 2,
+    "text": "Deres præmieobligation er udtrukket. De modtager kr. 1.000 af banken.",
+    "cardEffect": {
+      "amount": "1000",
+      "effect": 3
+    }
+  },
+  {
+    "id": 3,
+    "text": "Tag ind på Rådhuspladsen.",
+    "cardEffect": {
+      "effect": 8,
+      "location": 39
+    }
+  },
+  {
+    "id": 4,
+    "text": "Ryk frem til Vimmelskaftet. Hvis De passerer START, indkassér da kr. 4.000.",
+    "cardEffect": {
+      "effect": 8,
+      "location": 32,
+      "collectStart": true
+    }
+  },
+  {
+    "id": 5,
+    "text": "Betal Deres bilforsikring - kr. 1.000.",
+    "cardEffect": {
+      "amount": "1000",
+      "effect": 2
+    }
+  },
+  {
+    "id": 6,
+    "text": "Gå i fængsel. Ryk direkte til fængslet. Selv om De passerer START, indkasserer De ikke kr. 4.000.",
+    "cardEffect": {
+      "effect": 4,
+      "collectStart": false
+    }
+  },
+  {
+    "id": 7,
+    "text": "Ryk frem til Grønningnen. Hvis De passerer START, indkassér da kr. 4.000.",
+    "cardEffect": {
+      "effect": 8,
+      "location": 24,
+      "collectStart": true
+    }
+  },
+  {
+    "id": 8,
+    "text": "De havde en række med elleve rigtige i tipning. Modtag kr. 1.000.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": "1000"
+    }
+  },
+  {
+    "id": 9,
+    "text": "De har været en tur i udlandet og haft for mange cigaretter med hjem. Betal told kr. 200.",
+    "cardEffect": {
+      "effect": 2,
+      "amount": "200"
+    }
+  },
+  {
+    "id": 10,
+    "text": "De har fået en parkeringsbøde. Betal kr. 200 i bøde.",
+    "cardEffect": {
+      "effect": 2,
+      "amount": 200
+    }
+  },
+  {
+    "id": 11,
+    "text": "Ejendomsskatterne er steget. Ekstraudgifterne er: kr. 800 pr. hus, kr. 2.300 pr. hotel.",
+    "cardEffect": {
+      "effect": 9
+    }
+  },
+  {
+    "id": 12,
+    "text": "Tak med Mols-Linien. Flyt brikken frem, og hvis De passerer START, indkassér da kr. 4.000.",
+    "cardEffect": {
+      "effect": 8,
+      "location": 25,
+      "collectStart": true
+    }
+  },
+  {
+    "id": 13,
+    "text": "De har solgt nogle gamle møbler på auktion. Modtag kr. 1.000 af banken.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": 1000
+    }
+  },
+  {
+    "id": 14,
+    "text": "De skal holde familiefest og får et tilskud fra hver medspiller på kr. 500.",
+    "cardEffect": {
+      "effect": 10,
+      "amount": 500
+    }
+  },
+  {
+    "id": 15,
+    "text": "Grundet dyrtiden har De fået gageforhøjelse. Modtag kr. 1.000.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": 1000
+    }
+  },
+  {
+    "id": 16,
+    "text": "Deres præmieobligation er udtrukket. De modtager kr. 1.000 af banken.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": 1000
+    }
+  },
+  {
+    "id": 17,
+    "text": "Værdien af egen avl fra nyttehaven udgør kr. 200 som De modtager af banken.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": 200
+    }
+  },
+  ,
+  {
+    "id": 18,
+    "text": "De har kørt frem for Fuld Stop. Betal kr. 1.000 i bøde.",
+    "cardEffect": {
+      "effect": 2,
+      "amount": 1000
+    }
+  },
+  {
+    "id": 19,
+    "text": "Ryk frem til Strandvejen. Hvis De passerer START indkassér da kr. 4.000.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": 4000
+    }
+  },
+  {
+    "id": 20,
+    "text": "Ryk frem til START",
+    "cardEffect": {
+      "effect": 8,
+      "location": 0,
+      "collectStart": true
+    }
+  },
+  {
+    "id": 21,
+    "text": "Oliepriserne er steget, og De skal betale: kr. 500 pr. hus, kr. 2.000 pr. hotel.",
+    "cardEffect": {
+      "effect": 9
+    }
+  },
+  {
+    "id": 22,
+    "text": "Ryk frem til Frederiksberg Allé. Hvis De passerer START, indkassér da kr. 4.000.",
+    "cardEffect": {
+      "effect": 8,
+      "location": 11,
+      "collectStart": true
+    }
+  },
+  {
+    "id": 23,
+    "text": "De har vundet i Klasselotteriet. Modtag kr. 500.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": 500
+    }
+  },
+  {
+    "id": 19,
+    "text": "Ryk frem til Strandvejen. Hvis De passerer START indkassér da kr. 4.000.",
+    "cardEffect": {
+      "effect": 3,
+      "amount": 4000
+    }
+  }
+]
