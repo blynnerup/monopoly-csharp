@@ -52,6 +52,7 @@ public class GameLogic
         {
             _gameBoard = new GameBoard();
             _gameBoard.InitializeBoard();
+            _gameBoard.InitializeChanceCards();
         }
     }
 }

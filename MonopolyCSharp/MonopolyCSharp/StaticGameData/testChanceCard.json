@@ -1,3 +1,19 @@
-{
-
-}
+[
+  {
+    "id": 20,
+    "text": "Ryk frem til START",
+    "cardEffect": {
+      "effect": 8,
+      "location": 0,
+      "collectStart": true
+    }
+  },
+  {
+    "id": 0,
+    "text": "Betal for vognvask og smørring kr. 300.",
+    "cardEffect": {
+      "amount": "300",
+      "effect": 2
+    }
+  }
+]
