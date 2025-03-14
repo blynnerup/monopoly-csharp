@@ -4,8 +4,8 @@ namespace MonopolyCSharp;
 
 public class GameLogic
 {
-    private bool GameRunning { get; set; } = false;
-    private GameBoard _gameBoard { get; set; }
+    private bool GameRunning { get; set; }
+    private GameBoard? GameBoard { get; set; }
 
     private bool _validKeyEntered = false;
     public void RunMenu()
@@ -45,13 +45,13 @@ public class GameLogic
     /// <summary>
     /// Initializes the game.
     /// </summary>
-    private  void NewGame()
+    private void NewGame()
     {
         Console.WriteLine("Game initializing");
         while (GameRunning && !Program.GameExited)
         {
-            _gameBoard = new GameBoard();
-            _gameBoard.InitializeBoard();
+            GameBoard = new GameBoard();
+            GameBoard.InitializeBoard();
         }
     }
 }
