@@ -6,13 +6,15 @@ public class GameBoard
 {
     public List<GameBoardField>? Fields { get; set; } = [];
     public List<ChanceCard>? ChanceCards { get; set; }
+    public JsonSerializerOptions _options { get; set; }
+
+    public GameBoard()
+    {
+        _options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+    }
 
     public void InitializeBoard()
     {
-        var options = new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true
-        };
         // var jsonString = File.ReadAllText("StaticGameData/testGameField.json");
         var jsonString = File.ReadAllText("StaticGameData/gameFields.json");
         // var field = JsonSerializer.Deserialize<GameBoardField>(jsonString, options);
@@ -20,7 +22,7 @@ public class GameBoard
         
     }
 
-    private void InitializeChanceCards()
+    public void InitializeChanceCards()
     {
         var options = new JsonSerializerOptions
         {
